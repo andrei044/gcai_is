@@ -10,7 +10,7 @@ import java.util.List;
 @Slf4j
 @Service
 public class AIService {
-    private final String myKey="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";
+    private final String myKey="";
     private final OpenAiService service = new OpenAiService(myKey);
     private final String engineId="gpt-3.5-turbo-0613";
 
